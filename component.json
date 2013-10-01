@@ -1,0 +1,17 @@
+{
+  "name": "approximate-time",
+  "repo": "yields/approximate-time",
+  "description": "approximate human readable time",
+  "keywords": ["approximate", "time", "conversion"],
+  "version": "0.0.1",
+  "development": {
+    "component/assert": "*",
+    "visionmedia/mocha": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "remotes": []
+}
