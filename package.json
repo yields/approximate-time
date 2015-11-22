@@ -1,0 +1,25 @@
+{
+  "name": "approximate-time",
+  "version": "0.0.1",
+  "description": "approximate human readable time",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yields/approximate-time.git"
+  },
+  "keywords": [
+    "browser",
+    "approximate",
+    "time",
+    "conversion"
+  ],
+  "dependencies": {},
+  "browser": {},
+  "author": "Amir Abu Shareb <yields@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yields/approximate-time/issues"
+  },
+  "files": [
+    "index.js"
+  ]
+}
