@@ -76,6 +76,11 @@ assert('agora' == time(new Date, 'br'));
 
 ```
 
+## Test
+
+
+    $ npm t
+
 ## License
 
   MIT

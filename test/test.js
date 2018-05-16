@@ -1,7 +1,7 @@
 
 describe('approximate-time', function(){
 
-  var time = require('approximate-time')
+  var time = require('../index')
     , assert = require('assert');
 
 

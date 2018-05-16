@@ -1,6 +1,6 @@
 module.exports = {
   second: { text: 'second', one: 'a' },
-  minut: { text: 'minute', one: 'a' },
+  minute: { text: 'minute', one: 'a' },
   hour: { text: 'hour', one: 'an' },
   day: { text: 'day', one: 'a' },
   week: { text: 'week', one: 'a' },

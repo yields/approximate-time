@@ -58,7 +58,7 @@ module.exports = function(date, lang){
 
 function format(n, unit, language){
   var l = word[language] || word['en'];
-  var text = 1 === n ? l[unit].text : l[unit].text + 's';
+  var text = 1 === n ? l[unit].text : (l[unit].plural || l[unit].text + 's');
   return (1 === n ? l[unit].one : n)
     + ' ' + text;
 }
