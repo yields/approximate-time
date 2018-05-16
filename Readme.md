@@ -8,6 +8,10 @@
   Install with [component(1)](http://component.io):
 
     $ component install yields/approximate-time
+    
+  Install with [npm](http://www.npmjs.com):
+
+    $ npm i approximate-time
 
 ## API
 
@@ -55,6 +59,21 @@ assert('5 years' == time(add(3.156e+10 * 5)));
 assert('a decade' == time(add(3.156e+10 * 10)));
 assert('5 decades' == time(add(3.156e+11 * 5)));
 assert('100 decades' == time(sub(3.156e+11 * 100)));
+
+
+```
+
+## Internationalization
+
+
+language supported: br
+
+```js
+var time = require('approximate-time');
+
+// now
+assert('agora' == time(new Date, 'br'));
+
 ```
 
 ## License
